@@ -5,12 +5,16 @@
  */
 package vista;
 
+import controlador.impl.BebidaControladorDefault;
+
 /**
  *
  * @author lopez
  */
 public class NewJFrame extends javax.swing.JFrame {
 
+    private final BebidaControladorDefault controlador = BebidaControladorDefault.obtenerInstancia();
+    
     /**
      * Creates new form NewJFrame
      */
